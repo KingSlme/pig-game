@@ -1,5 +1,13 @@
 'use strict';
 
+/*
+Each player can roll the dice
+The number rolled is added to their current score
+If the number is 1, the current score is set to 0 and their turn ends
+The player can also "hold", resetting their current score and adding it to their total score
+The first player to 100 points wins
+*/
+
 // Selecting elements
 const player0El = document.querySelector(`.player--0`);
 const player1El = document.querySelector(`.player--1`);
